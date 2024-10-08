@@ -1,0 +1,9 @@
+com\eryckavel\MultiBanco\model\Geral.class
+com\eryckavel\MultiBanco\database\DataSourceConfig.class
+com\eryckavel\MultiBanco\controller\GeralController.class
+com\eryckavel\MultiBanco\database\DataSourceRouting.class
+com\eryckavel\MultiBanco\database\enums\DataSourceEnum.class
+com\eryckavel\MultiBanco\service\GeralSerivce.class
+com\eryckavel\MultiBanco\database\DataSourceContextHolder.class
+com\eryckavel\MultiBanco\repository\GeralRepository.class
+com\eryckavel\MultiBanco\MultiBancoApplication.class

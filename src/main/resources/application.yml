@@ -1,0 +1,25 @@
+server:
+  port: 8181
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: multibanco
+
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: none
+    generate-ddl: false
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: false
+        jdbc:
+          time_zone: America/Sao_Paulo
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  pattern:
+    console: '%green(%d{dd/MM/yyyy HH:mm:ss.SSS}) %boldMagenta([%thread]) %highlight(%-5level)- %clr(${PID:-}) : %cyan(%-40.40logger{39}) : %yellow(%msg%n)'
